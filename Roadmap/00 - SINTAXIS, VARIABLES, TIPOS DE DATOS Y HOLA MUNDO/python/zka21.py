@@ -1,3 +1,4 @@
+
 #Comentario en una sola linea
 # https://www.python.org/
 
@@ -14,13 +15,16 @@
 """
 
 #Creación de variables
-nombre = "Zhaida"
-apellido = "Cazasola"
+'''nombre = "Zhaida"
+apellido = "Cazasola"'''
 
 #Creación de constantes
-LENGUAJE = "Python"
+'''LENGUAJE = "Python"
 EDAD = 21
 ALTURA = 1.65
 ES_ESTUDIANTE = True
 
-print("¡Hola, " + LENGUAJE + "!")
+print("¡Hola, " + LENGUAJE + "!")'''
+
+#Dificultad extra
+
