@@ -84,16 +84,16 @@ print("zka".upper())
 Extra
 """
 
-def numeros_puros(numero1,numero2):
+def numeros_puros(str1,str2):
     contador = 0
     i = 0
-    for i in range(1,100,1):
+    for i in range(1,101,1):
         if i % 3 == 0 and i % 5 == 0:
-            print(f"Este numero es multiplo de 3 y de 5: {i}")
+            print(f"{str1} {str2} {i}")
         elif i % 3 ==0:
-            print(f"Este numero es multiplo de 3: {i}")    
+            print(f"{str1} {i}")    
         elif i % 5 ==0:
-            print(f"Este numero es multiplo de 5: {i}")
+            print(f"{str2} {i}")
         else: contador = contador + 1
     
     print(f"Los numeros que no son multiplos de 3 ni de 5 son: {contador}") 
@@ -101,5 +101,5 @@ def numeros_puros(numero1,numero2):
     return contador
 
 
-numeros_puros(1,100)
+numeros_puros("xovi", "misky")
 
